@@ -5,6 +5,7 @@ import "../assets/js/anime-helper.js";
 import "../assets/js/swiper-helper.js";
 import "../assets/js/typed-helper.js";
 
+
 import React, { useEffect } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -12,7 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../assets/css/uikit.min.css";
 import "../assets/css/theme/main.css";
-
+ 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = React.useState(false);
   const [firstRender, setFirstRender] = React.useState(false);
