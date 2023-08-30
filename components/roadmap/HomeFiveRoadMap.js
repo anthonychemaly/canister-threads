@@ -5,7 +5,6 @@ const HomeFiveRoadMap = () => {
     <div
       id="uni_about"
       className="uni-roadmap uk-section uk-section-large@m uk-panel uk-overflow-hidden"
-      
     >
       <div className="uk-container">
         <header
@@ -27,7 +26,6 @@ const HomeFiveRoadMap = () => {
               <ul
                 className="uni-roadmap-switcher"
                 data-uk-switcher="connect: #uni-roadmap-nav; animation: uk-animation-slide-bottom-small, uk-animation-slide-top-small"
-                style={{overflow:'hidden'}}
               >
                 <li>
                   <Link href="#">
