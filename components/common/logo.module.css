@@ -1,0 +1,16 @@
+.word {
+  display: block;
+}
+.c {
+  display: none;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .word {
+    display: none;
+  }
+  .c {
+    display: block;
+  }
+}
